@@ -15,12 +15,10 @@ function tinhTong(){
 function demSo(){
     var count = 0;
     for( var i =0 ; i< numArr.length;i++){
-        if(numArr[i] > 0){
+        if(numArr[i] > 0 ){
             count++;
         }
-        else{
-            break;
-        }
+        
     }
     document.getElementById("result2").innerHTML=`<h3>2.Đếm số dương:${count} </h3>`;
     document.getElementById("result2").classList.add("bg-light");
