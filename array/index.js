@@ -144,7 +144,7 @@ function dem(){
     }
 }
 function soSanh(){
-    var ketQua=dem(numArr);
+    var ketQua=dem();
     document.getElementById("result9").innerHTML=`<h3>10.${ketQua} </h3>`;
     document.getElementById("result9").classList.add("bg-light");
 
